@@ -1,6 +1,7 @@
 /* BASE CODE */
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
   height: 100%;
@@ -10,17 +11,39 @@ html, body {
   align-items: center;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-#playIcon {
-  height: 10rem;
+/* Play Icon */
+
+#welcome {
+  position: absolute;
 }
 
-#playIcon:hover {
-  background-color: blueviolet;
+#playIcon {
+  background-color: crimson;
   height: 15rem;
-  transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transform: rotate(360deg);
+  transition: all 3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  opacity: 0;
+  border-radius: 10%;
+}
+
+#main {
+  transition-delay: 2s;
+}
+
+@starting-style {
+
+  #playIcon {
+    opacity: 1;
+    height: 10rem;
+    transform: rotate(360deg);
+  }
+
+  #main {
+    opacity: 0;
+  }
 }
