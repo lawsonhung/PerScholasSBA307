@@ -8,8 +8,6 @@ body {
   width: 100%;
   box-sizing: border-box;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 *,
@@ -37,8 +35,9 @@ body {
   border-radius: 10%;
 }
 
-#main {
-  transition-delay: 2s;
+#bodyContent {
+  /* transition-delay: 2s; */
+  width: stretch;
 }
 
 @starting-style {
@@ -49,7 +48,31 @@ body {
     transform: rotate(360deg);
   }
 
-  #main {
+  #bodyContent {
     opacity: 0;
   }
+
+}
+
+/* Main Content */
+
+/* NavBar */
+.navbar {
+  overflow: hidden;
+}
+
+#navbarSupportedContent {
+  justify-content: space-between;
+}
+
+#searchBarAndButton {
+  display: flex;
+}
+
+#userActions {
+  display: flex;
+}
+
+.userActionIcon {
+  height: 100%;
 }
