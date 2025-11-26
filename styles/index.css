@@ -5,10 +5,11 @@ body {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
   box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 *,
@@ -21,6 +22,11 @@ body {
 
 #welcome {
   position: absolute;
+  display: flex;
+  height: stretch;
+  width: stretch;
+  justify-content: center;
+  align-items: center;
 }
 
 #playIcon {
