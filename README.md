@@ -3,7 +3,7 @@
 Open index.html in the browser to start
 
 ### Built with
-[![Bootstrap 5.2.3][Bootstrap.com]][Bootstrap-url]
+[![Bootstrap][Bootstrap.com]][Bootstrap-url]
 Bootstrap 5.2.3
 
 <!-- Markdown links and images -->
