@@ -63,6 +63,8 @@ body {
 
 ul {
   list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -76,6 +78,7 @@ a {
 
 #navbarSupportedContent {
   justify-content: space-between;
+  display: flex;
 }
 
 #searchBarAndButton {
@@ -87,8 +90,13 @@ a {
   display: flex;
 }
 
+#userActions > li {
+  display: flex;
+}
+
 .userActionIcon {
-  height: 100%;
+  flex-grow: 1;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 #mainContent {
