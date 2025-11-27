@@ -1,0 +1,17 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(34, 37, 41);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  color: white;
+}
