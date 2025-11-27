@@ -22,10 +22,15 @@ body {
 #welcome {
   position: absolute;
   display: flex;
-  height: stretch;
-  width: stretch;
   justify-content: center;
   align-items: center;
+  height: stretch;
+  width: stretch;
+}
+
+#welcome,
+#bodyContent {
+  transition-delay: 2s;
 }
 
 #playIcon {
@@ -37,7 +42,6 @@ body {
 }
 
 #bodyContent {
-  transition-delay: 2s;
   width: stretch;
 }
 
@@ -99,11 +103,12 @@ a {
   padding: 0 0 0 0;
 }
 
-.sidebarItem > a {
+.sidebarItem>a {
   display: flex;
 }
 
-.sidebarItem > a > p, p {
+.sidebarItem>a>p,
+p {
   color: white;
 }
 
@@ -119,7 +124,7 @@ hr {
   flex: 85%;
 }
 
-#topicsBar > ul {
+#topicsBar>ul {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -131,7 +136,7 @@ hr {
   border-radius: 20%;
 }
 
-.topicsBarItem > a:hover {
+.topicsBarItem>a:hover {
   color: black;
 }
 
@@ -150,4 +155,8 @@ hr {
 
 .card-title {
   color: white;
+}
+
+#firstCard {
+  background-color: coral;
 }
