@@ -2,6 +2,11 @@
 ## Getting Started
 Open index.html in the browser to start
 
+## SBA Requirements
+- Inline styling used for first card in index.html line 226
+- Internal styling sheet used for video.html
+- External styling used for index.html
+
 ### Built with
 [![Bootstrap 5.2.3][Bootstrap.com]][Bootstrap-url]
 
