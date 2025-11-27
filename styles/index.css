@@ -8,6 +8,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  background-color: rgb(34, 37, 41);
 }
 
 *,
@@ -54,9 +55,8 @@ body {
 
 }
 
-/* Main Content */
+/* Body Content */
 
-/* NavBar */
 .navbar {
   overflow: hidden;
 }
@@ -67,12 +67,49 @@ body {
 
 #searchBarAndButton {
   display: flex;
+  width: 60%;
 }
 
 #userActions {
   display: flex;
+  list-style-type: none;
 }
 
 .userActionIcon {
   height: 100%;
+}
+
+#mainContent {
+  display: flex;
+}
+
+#sidebar {
+  flex: 15%;
+}
+
+.sidebarUnorderedList {
+  list-style-type: none;
+  padding: 0 0 0 0;
+}
+
+.sidebarItem > a {
+  display: flex;
+  text-decoration: none;
+}
+
+.sidebarItem > a > p, p {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.sidebarItemIcon {
+  height: 2em;
+}
+
+#mainPage {
+  flex: 85%;
+  background-color: cornflowerblue;
 }
